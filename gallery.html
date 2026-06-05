@@ -1,0 +1,78 @@
+<html>
+    <head><title>Gallery</title></head>
+    <style>
+        .div1{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            padding:20px;
+            margin-left:10px;
+        }
+        .div2{
+            padding:20px;
+        }
+         .navbar{
+            background-color:aliceblue;
+             align-items:center;
+             justify-content:center;
+             display:flex;
+            
+         }
+         button{
+            gap:30px;
+            margin:20px;
+            border:none;
+            font-size:25px;
+            box-shadow:0px 2px 3px red;
+            
+         }
+         button:hover{
+            background-color:yellow;
+         }
+         .animals{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+         }
+         img{
+            transition:cubic-bezier(0.19, 1, 0.22, 1)1s;
+         }
+           img:hover{
+            transform:scale(1.2);
+             
+          }
+        .i{
+            width:70%;
+            height:60%;
+            border:1px solid pink;
+        }
+      img{
+        border-radius:20px;
+      }
+         
+    </style>
+<body>
+    <div class="navbar">
+         
+         <button>All</button>
+        <button>Cars</button>
+        <button>Nature</button>
+        <button>Animals</button>
+        <button>Coding</button>
+     
+    </div>
+    <div class="div1">
+        <div class="div2"><img src="n1.jpg" class="nature"> </div>
+        <div class="div2"><img src="n2.jpg" class="nature"> </div>
+        <div class="div2"><img src="n3.jpg" class="nature"> </div>
+        <div class="div2"><img src="c2.jpg" class="cars"> </div>
+        <div class="div2"><img src="c2.jpg" class="cars"> </div>
+    </div>
+    <div class="animals"> 
+        <div class="div2"><img src="a1.jpg" class="animals"> </div>
+        <div class="div2"><img src="a3.jpg" class="animals"> </div>
+        <div class="div2"><img src="c1.jpg" class="coding"></div>
+    </div>
+    <script src="gallery.js"></script>
+</body>
+</html>
